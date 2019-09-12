@@ -1,0 +1,3 @@
+If we run this code 10 times, we can see that fork() returns different results for different threads.
+It is 0 in case of child thread and some integer different from zero in case of parent thread.
+Also, we can see that processes IDs are different.
