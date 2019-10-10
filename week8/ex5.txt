@@ -1,0 +1,11 @@
+*** Physical address ***
+
+Physical address is actual address on RAM. 
+It points to the existing memory and it is backed by the hardware.
+
+*** Virtual address ***
+
+Virtual address is address of the data stored in virtual memory.
+We cannot directly access virtual address for reading,
+so it should be mapped to some adress in the physical memory.
+Virtual address may be used to obtain the physical address, by using page tables.

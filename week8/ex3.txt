@@ -1,0 +1,4 @@
+Result of running ex2.c:
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND      
+ 2719 user      20   0  419048  27464  19912 S  1,2  0,7   0:00.11 ex2
