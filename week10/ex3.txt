@@ -1,0 +1,23 @@
+Output:
+
+-rw-r--r-- 1 user user 24 Oct 19 20:41 _ex3.txt
+-rwxr--rwx 1 user user 24 Oct 19 20:41 _ex3.txt
+-rwxrwxrwx 1 user user 24 Oct 19 20:41 _ex3.txt
+
+Answer:
+
+660, 775, 777 are the same commands in octal permission notation. 
+    
+4: "read"
+2: "write"
+1: "execute"
+0: "no permission"
+
+'chmod 660 _ex3.txt' gives following permissions: 
+-rw-rw---- (user and group can read and write, others do not have permissions)
+
+'chmod 775 _ex3.txt' gives following permissions: 
+-rwxrwxr-x (user and group have all permissions, others cannot write)
+
+'chmod 777 _ex3.txt' gives following permissions: 
+-rwxrwxrwx (everyone have all permissions)

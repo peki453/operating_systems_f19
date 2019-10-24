@@ -1,0 +1,4 @@
+Output:
+
+/home/user/week1/file.txt
+/home/user/week10/_ex2.txt
